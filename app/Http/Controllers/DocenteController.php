@@ -83,6 +83,6 @@ class DocenteController extends Controller
     }
 
     public function prueba(){
-        return 'esto es una prueba again';
+        return 'deploy en heroku con tests ok desde travis';
     }
 }
