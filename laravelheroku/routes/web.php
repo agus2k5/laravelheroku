@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//test
+Route::get('/api/prueba','DocenteController@prueba');
