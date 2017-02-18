@@ -19,7 +19,7 @@ class ExampleTest extends DuskTestCase
             // $browser->visit('/')
             //         ->assertSee('Laravel');
             $browser->visit('/api/prueba')
-                    ->assertSee('prueba de deploy en heroku con CI desde travis');
+                    ->assertSee('test openship');
         });
     }
 }
