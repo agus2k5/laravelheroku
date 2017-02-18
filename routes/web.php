@@ -16,9 +16,11 @@ Route::get('/', function () {
 });
 
 //test
-Route::get('/api/prueba','DocenteController@prueba');
+// Route::get('/api/prueba','DocenteController@prueba');
+
 //rest
-Route::resource('api/docente','DocenteController');
+// Route::resource('api/docente','DocenteController');
+
 //api docente
 // Route::get('/api/docente/{id?}','DocenteController@index');
 // Route::post('/api/docente','DocenteController@store');
